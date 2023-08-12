@@ -4,7 +4,7 @@ echo '------------------sign------------------'
 curl --http1.1 -X POST 'https://glados.rocks/api/user/checkin' \
   -H 'content-type: application/json;charset=UTF-8' \
   -H "cookie: ${COOKIE}" \
-  -d '{"token": "glados.one"}' | grep -Eo '"message":"[^"]*"'
+  -d '{"token": "glados.rocks"}'  | grep -Eo '"message":"[^"]*"'
 
 
 echo '-----------------status-----------------'
