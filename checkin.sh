@@ -8,4 +8,4 @@ curl -X POST 'https://glados.rocks/api/user/checkin' \
 
 
 echo '-----------------status-----------------'
-curl -H "cookie:${COOKIE}" -X GET 'https://glados.rocks/api/user/status' -s| grep -Eo '"leftDays":"[^"]*"'
+curl -H "cookie:${COOKIE}" -X GET 'https://glados.rocks/api/user/status' | grep -Eo '"leftDays":"[^"]*"'
