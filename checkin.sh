@@ -3,7 +3,7 @@ echo '------------------sign------------------'
 
 curl -X POST 'https://glados.rocks/api/user/checkin' \
   -H 'content-type: application/json;charset=UTF-8' \
-  -H "cookie:${COOKIE}"
+  -H "cookie:${COOKIE}" \
   -H 'user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1' \
   --data-raw '{"token":"glados.one"}' \
   --compressed
