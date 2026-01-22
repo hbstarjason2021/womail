@@ -22,3 +22,5 @@ jobs:
         run: |
           chmod +x checkin.sh
           ./checkin.sh
+
+      - uses: liskin/gh-workflow-keepalive@v1    
