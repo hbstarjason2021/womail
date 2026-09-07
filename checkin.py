@@ -1,3 +1,4 @@
+### https://github.com/Eitan-S-23/glados-auto-checkin/
 import requests
 from curl_cffi import requests as cffi_requests
 import datetime
