@@ -8,7 +8,7 @@ import os
 
 # 从 GitHub Secrets 读取配置
 PUSH_WEBHOOK_URL = os.getenv("PUSH_WEBHOOK_URL", "")
-ACCOUNTS_JSON = os.getenv("ACCOUNTS_JSON", "[]")
+ACCOUNTS_JSON = os.getenv("COOKIE", "[]")
 
 # 代理（GitHub 服务器在国外，无需代理）
 PROXY_CONFIG = None
