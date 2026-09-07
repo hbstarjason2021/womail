@@ -1,4 +1,4 @@
-name: glados-checkin
+name: check-in
 
 on:
   #schedule:
@@ -23,7 +23,7 @@ jobs:
           pip install requests curl_cffi
 
       - name: Run checkin
-        run: python checkin.py
+        run: python check-in.py
         env:
           PUSH_WEBHOOK_URL: ${{ secrets.PUSH_WEBHOOK_URL }}
           ACCOUNTS_JSON: ${{ secrets.COOKIE }}
